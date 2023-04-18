@@ -1,0 +1,92 @@
+.App {
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee7df;
+  font-family: Poppins,sans-serif;
+}
+.todos-main {
+  background: #5984d1;
+  height: 600px;
+  width: 500px;
+  padding: 2rem;
+  border-radius: 3rem;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  
+}
+.todos-main h1 {
+ 
+  text-align: center;
+  margin: 0;
+  color: #eee7df;
+  font-weight: bold;
+  
+  transform: scale(1.2);
+  
+
+}
+.todos-main form div{
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.todos-main form div input{
+  width: 436px;
+  height: 32px;
+  margin-top: 1rem;
+  padding: 5px;
+  border: none;
+  outline: none;
+  z-index: 999;
+  
+  
+
+}
+
+.list__visible button{
+  position: absolute;
+  top: 85px;
+  right: 60px;
+  width: 1.6rem;
+  height: 38px;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  transform: scale(1.4);
+  
+  
+}
+.listItems_all{
+  background: white;
+  padding: 0;
+  max-height: 320px;
+  overflow-y: auto;
+
+}
+.listItems{
+  border-bottom: 1px solid #eee7df;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5984d1;
+  
+
+}
+.listItems_top{
+  display: flex;
+
+}
+.listItems_bottom span{
+  color: rgb(252, 86, 86);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
